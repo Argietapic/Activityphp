@@ -26,7 +26,7 @@
                 $borderColor = $_REQUEST['cBorder'] ?? '#000000';
                 $imgSize = $_REQUEST['size'] ?? '10';
 
-                echo '<img src="img/images.png" alt="image" width="' . (empty($imgSize) ? '10' : $imgSize) . '%" height="' . (empty($imgSize) ? '10' : $imgSize) . '%" style="border:5px solid ' . (empty($borderColor) ? '#000000' : $borderColor) . ';">';
+                echo '<img src="img/tapic.jpg" alt="image" width="' . (empty($imgSize) ? '10' : $imgSize) . '%" height="' . (empty($imgSize) ? '10' : $imgSize) . '%" style="border:5px solid ' . (empty($borderColor) ? '#000000' : $borderColor) . ';">';
             }
         ?>
     </form>
